@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,9 +8,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 	<h1>Změna tříd, události</h1>
+
+	<p class="odstavec" style="font-size: 16px; color: black; " onmouseover="setBold(this)" onmouseout="setNormal(this)"> V elipse spí lev.</p>
+
+
+
+
+	<button onclick="upravBarvuPisma()">Červený po kliknutí</button>
+
+	<button onclick="upravVelikostPisma()">Větší po kliknutí</button>
+
+
+
+
 
 	<div class="ctverecek zluty"></div>
 
@@ -21,5 +36,8 @@
 
 	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
 
+	<script type="text/javascript" src="main.js"> </script>
+
 </body>
+
 </html>
