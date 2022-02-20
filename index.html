@@ -11,21 +11,29 @@
 
 <body>
 
-	<h1>Změna tříd, události</h1>
+	<!-- <h1>Změna tříd, události</h1> -->
 
+
+	<!--úkol v hodině - vyřešeno v hodině-->
 	<p class="odstavec" style="font-size: 16px; color: black; " onmouseover="setBold(this)" onmouseout="setNormal(this)"> V elipse spí lev.</p>
 
-
-
-
+	<!-- úkol č. 1-->
 	<button onclick="upravBarvuPisma()">Červený po kliknutí</button>
-
+	<!-- úkol č. 2-->
 	<button onclick="upravVelikostPisma()">Větší po kliknutí</button>
 
+	<!-- úkol č. 3-->
+	<audio id="zvuk" src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<br>
 
+	<button onclick="startAudio()">přehraj</button>
+	<button onclick="pauzaAudio()">pauzni</button>
+	<button onclick="ztisitAudio()">ztišit</button>
+	<button onclick="akoratAudio()">hlasitost na půl</button>
+	<button onclick="maximumAudio()">halsitost na maximum</button>
+	<button onclick="zacatekAudio()">nastav na začátek</button>
 
-
-
+	<!--
 	<div class="ctverecek zluty"></div>
 
 	<div class="ctverecek zeleny"></div>
@@ -34,7 +42,7 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+-->
 
 	<script type="text/javascript" src="main.js"> </script>
 
